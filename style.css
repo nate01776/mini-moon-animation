@@ -1,3 +1,7 @@
+.container {
+  text-align: center;
+}
+
 .ball {
   background: #ECDB67;
   width: 50px;
@@ -15,8 +19,8 @@
   height: 150px;
   border-radius: 50%;
   position: fixed;
-  top: 39%;
-  left: 44.5%;
+  top: 400px;
+  left: 400px;
   z-index: -1;
 }
 
@@ -24,9 +28,9 @@
   /*background: grey;*/
   width: 100px;
   height: 100px;
-  margin-top: 25%;
-  margin-bottom: 15%;
-  margin-left: 50%;
+  position: fixed;
+  top: 475px;
+  left: 475px;
   transform: rotate(45deg);
   transition: transform 10s linear;
   transform-origin: top left;
