@@ -4,7 +4,7 @@
     <title>"Nathan's JS sample page"</title>
     <link rel = "stylesheet" type = "text/css" href = "style.css">
     <script>
-    function changeColor(newColor) {
+    function rotateBall(element) {
       var elem = document.getElementById("para1");
       var elem2 = document.getElementById("para2");
       elem.classList.add('box-rotate');
@@ -21,6 +21,6 @@
     <div class="big-ball">
     </div>
 
-    <button onclick="changeColor('blue')">click me</button>
+    <button onclick="rotateBall('go')">click me</button>
   </body>
 </html
