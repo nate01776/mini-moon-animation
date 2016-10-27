@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <meta charset = "utf-8">
+    <title>"Nathan's JS sample page"</title>
+    <link rel = "stylesheet" type = "text/css" href = "style.css">
+    <script>
+    function changeColor(newColor) {
+      var elem = document.getElementById("para1");
+      var elem2 = document.getElementById("para2");
+      elem.classList.add('box-rotate');
+      elem2.classList.add('ball-scale')
+    }
+  </script>
+  </head>
+
+  <body>
+    <div class="box" id="para1" >
+      <div class="ball" id="para2">
+      </div>
+    </div>
+    <div class="big-ball">
+    </div>
+
+    <button onclick="changeColor('blue')">click me</button>
+  </body>
+</html
